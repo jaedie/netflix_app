@@ -1,0 +1,36 @@
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 41px;
+  padding: 10px 0;
+  background-image: linear-gradient(
+    0deg,
+    transparent,
+    rgba(37, 37, 37, 0.67),
+    #141414
+  );
+  z-index: 1;
+  transition: all 0.5s ease-in;
+}
+
+.nav__black {
+  background: #141414;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+  background-size: contain;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  object-fit: contain;
+}
